@@ -154,17 +154,3 @@
 .offset-ld-12{
     margin-left: calc((100% / 12) * 12)
 }
-
-@media only screen and (max-width:768px){
-    [class*="col-"]{
-        flex-basis: calc((100% / 12) * 12);
-    }
-
-    [class*="offset-"]{
-        margin-left:0;
-    }
-
-    .ld-nowrap{
-        flex-wrap: wrap;
-    }
-}
