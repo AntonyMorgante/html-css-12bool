@@ -1,3 +1,8 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
 div{
     color:white;
 }
@@ -16,11 +21,11 @@ h2,h3{
 }
 
 [class*="col-"] {
-    height:50px;
+    max-height:100px;
+    padding:20px;
     background-color: blue;
     border:1px solid white;
     text-align: center;
-    line-height: 50px;
 }
 
 .nested{
@@ -29,5 +34,5 @@ h2,h3{
 }
 
 .wide{
-    height:100px;
+    max-height:200px;
 }
