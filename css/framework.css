@@ -47,6 +47,10 @@
     align-items: flex-end;
 }
 
+.a-start{
+    align-items: flex-start;
+}
+
 .col-ld-1{
     flex-basis:calc((100% / 12) * 1);
     max-width:100%;
